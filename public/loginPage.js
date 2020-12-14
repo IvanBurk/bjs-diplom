@@ -10,7 +10,6 @@ userForm.loginFormCallback = data => {
     })
 };
 
-const userForm = new UserForm();
 userForm.registerFormCallback = data => {
     ApiConnector.login(data, response => {
         if (response.success) {
